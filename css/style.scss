@@ -11,10 +11,10 @@ body {
   height: 64px;
   width: auto;
 }
-.mdl-card {
+.demo-card-wide {
   margin: 0 10%;
   min-width: 330px;
-  width: 80% !important;
+  width: 80%;
   height: 500px;
   top: 100px;
   }
@@ -26,5 +26,16 @@ body {
     top: 4px;
     left: 3px;
     font-size: 40px;
+  }
+}
+.content-grid {
+  max-width: 960px;
+  min-width: 256px;
+  .mdl-cell--4-col{
+    background-color: white;
+    padding: 15px;
+    .mdl-cell--top{
+      z-index: 1;
+    }
   }
 }
