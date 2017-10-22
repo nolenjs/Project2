@@ -85,6 +85,15 @@ body {
   .mdl-card__title .mdl-card__title-text {
     font-size: 30px; }
 
+.bike1 {
+  background: url("../img/hydra.png") center/cover; }
+
+.bike2 {
+  background: url("../img/centaurus.png") center/cover; }
+
+.bike3 {
+  background: url("../img/scorpius.png") center/cover; }
+
 @media screen and (max-width: 465px) {
   .header {
     position: relative;
